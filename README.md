@@ -4,9 +4,9 @@ P.S. In order for this script to run correctly you have to set the Edge account 
 I included the edgedriver.exe file in the repository. However here's the link to the ufficial download page: https://developer.microsoft.com/it-it/microsoft-edge/tools/webdriver/
 
 Requirements:
-Install Selenium (see more at https://selenium-python.readthedocs.io/index.html)
-Have the right Edgedriver version (see more at https://chromedriver.chromium.org/downloads)
-Change the variables at the beginning of the file (mostly the Chrome User Profile Path )
+- Install Selenium (see more at https://selenium-python.readthedocs.io/index.html)
+- Have the right Edgedriver version (see more at https://chromedriver.chromium.org/downloads)
+- Change the variables at the beginning of the file (mostly the Chrome User Profile Path )
 
 Feel free to change parts of the code if you want :)
 
