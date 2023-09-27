@@ -22,6 +22,11 @@ import os
 import random
 
 
+# --------------------------------------------------------------------------------------------------
+
+# Change this variables if the script isn't running properly
+EdgeUser_Dir = "C:\\Users\\user\\AppData\\Local\\Microsoft\\Edge\\User Data\\Profile 2" # This is an exmple, put your own Chrome User Profile
+Profile = "Profile 1"
 
 # --------------------------------------------------------------------------------------------------
 
@@ -87,8 +92,8 @@ try:
     edge_options = webdriver.EdgeOptions() 
     edge_options.add_argument('--headless=new')
     edge_options.add_argument("--disable-gpu")
-    edge_options.add_argument("user-data-dir=C:\\Users\\user\\AppData\\Local\\Microsoft\\Edge\\User Data\\Profile 2")  # Cambiate  questo path con il vostro profilo
-    edge_options.add_argument("profile-directory=Profile 2")
+    edge_options.add_argument("user-data-dir=" + EdgeUser_Dir)  # Cambiate  questo path con il vostro profilo
+    edge_options.add_argument("profile-directory=" + Profile)   # Cambiate  questo path con il vostro profilo
     # edge_options.add_argument(f"user-agent={PC_USER_AGENT}")
 
 
